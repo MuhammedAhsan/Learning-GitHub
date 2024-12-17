@@ -13,7 +13,7 @@ git blame
 git reset --hard <commit short hash num code>
 git revert <commit short hash num code>
 
-git remote add <server name (origin)>
+git remote add <server name (origin)> <repo link>
 git remote -v
 
 -------------------------------------------
