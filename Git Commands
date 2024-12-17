@@ -15,3 +15,25 @@ git revert <commit short hash num code>
 
 git remote add <server name (origin)>
 git remote -v
+
+-------------------------------------------
+
+create a new repository on the command line
+
+echo "# Learning-GitHub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MuhammedAhsan/Learning-GitHub.git
+git push -u origin main
+
+-------------------------------------------
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/MuhammedAhsan/Learning-GitHub.git
+git branch -M main
+git push -u origin main
+
+-------------------------------------------
