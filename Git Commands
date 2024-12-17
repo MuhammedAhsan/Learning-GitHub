@@ -20,6 +20,8 @@ git branch "branch name"
 git branch
 git checckout <branch name>
 
+git merge origin/<branch name>
+
 -------------------------------------------
 
 create a new repository on the command line
