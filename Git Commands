@@ -13,7 +13,7 @@ git blame
 git reset --hard <commit short hash num code>
 git revert <commit short hash num code>
 
-git remote add <server name (origin)> <repo link>
+git remote add <server name (origin)> <repo link>   
 git remote -v
 
 git branch "branch name"
@@ -22,11 +22,15 @@ git checckout <branch name>
 
 git merge origin/<branch name>
 
+----------
+
 Branching naming convensions:
 wip     Works in progress; stuff know won't be finished soon
 feat    Feature I'm adding or expanding
 buq     Bug fik or experiment
 junk    Throwaway branch created toexperiment
+
+----------
 
 Merge -- Rebase
 
